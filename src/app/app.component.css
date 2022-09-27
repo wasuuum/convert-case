@@ -1,0 +1,95 @@
+.container {
+    margin: 6vh auto;
+    width: 60vw;
+    padding: 30px;
+    padding-top: 40px;
+    border-radius: 3%;
+    background-color: white;
+}
+.container, :not(.material-icons) {
+    font-family: 'Inter Tight', sans-serif;
+}
+h1, .convert__buttons {
+    margin-bottom: 40px;
+}
+h1 {
+    font-weight: 500;
+    font-size: 4vh;
+}
+textarea {
+    height: 22vh;
+    margin-bottom: 10px;
+    resize: none;
+}
+.area-1 {
+    border: 1.5px solid rgb(214, 198, 217);
+}
+.area-1:focus {
+    box-shadow: 5px 5px rgb(214, 198, 217);
+}   
+.area-2 {
+    border: 1.5px solid rgb(190, 224, 230);
+}
+.area-2:focus {
+    box-shadow: 5px 5px rgb(190, 224, 230);
+}   
+button {
+    margin-right: 20px;
+    margin-bottom: 2vh;
+    font-weight: 300;
+    border: 0;
+}
+.convert__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.convert__buttons :nth-child(1) {
+    background-color: rgb(243, 242, 255);
+    color: rgb(143, 105, 143);
+}
+.convert__buttons :nth-child(1):hover {
+    background-color: rgb(181, 146, 181);
+    color: white;
+}
+.convert__buttons :nth-child(2) {
+    background-color: rgb(233, 249, 252);
+    color: rgb(89, 122, 180);
+}
+.convert__buttons :nth-child(2):hover {
+    background-color: rgb(134, 179, 205);
+    color: white;
+}
+.convert__buttons :nth-child(3) {
+    background-color: rgb(228, 247, 220);
+    color: rgb(65, 116, 84);
+}
+.convert__buttons :nth-child(3):hover {
+    background-color: rgb(125, 182, 146);
+    color: white;
+}
+.convert__buttons :nth-child(4) {
+    background-color: rgb(232, 232, 232);
+    color: rgb(101, 101, 101);
+}
+.convert__buttons :nth-child(4):hover {
+    background-color: rgb(155, 155, 155);
+    color: white;
+}
+.tools {
+    text-align: right;
+    height: 4vh;
+    min-height: 40px;
+    margin: 1.5vh 0;
+}
+
+.tools button {
+    height: 3vh;
+}
+.tools-1 button:hover {
+    color: rgb(181, 146, 181);
+}
+.tools-2 button:hover {
+    color: rgb(162, 201, 208);
+}
+

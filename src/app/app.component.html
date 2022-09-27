@@ -1,0 +1,25 @@
+
+<div class="container">
+    <h1>Convert Case</h1>
+    <div class="input__block">
+        <textarea class="form-control area-1" placeholder="Write here" #input_text ></textarea>
+        <div class="tools tools-1">
+            <button class="btn" (click)="copyText(input_text)" matTooltip="Copy content"><mat-icon>content_copy</mat-icon></button>
+            <button class="btn" (click)="deleteText(input_text)" matTooltip="Delete content"><mat-icon>delete_outline</mat-icon></button>
+        </div>
+    </div>
+    <div class="convert__buttons">
+        <button class="btn btn-primary" type="button" (click)="doUpperCase(input_text)">Upper Case</button>
+        <button class="btn btn-primary" type="button" (click)="doLowerCase(input_text)">Lower Case</button>
+        <button class="btn btn-primary" type="button" (click)="doProperCase(input_text)">Proper Case</button>
+        <button class="btn btn-primary" type="button" (click)="doSentenceCase(input_text)">Sentence Case</button>
+    </div>
+    <div class="output__block">
+        <textarea class="form-control area-2" placeholder="The result" [readonly]="true" #output_text>{{changed_text}}</textarea>
+        <div class="tools tools-2">
+            <button class="btn" (click)="copyText(output_text)" matTooltip="Copy content"><mat-icon>content_copy</mat-icon></button>
+            <button class="btn" (click)="deleteText(output_text)" matTooltip="Delete content"><mat-icon>delete_outline</mat-icon></button>
+        </div>
+        <div *ngIf="isCopied" class="alert alert-success" role="alert">Successfully copied</div>
+    </div>
+</div>  
