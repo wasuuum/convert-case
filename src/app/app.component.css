@@ -93,3 +93,12 @@ button {
     color: rgb(162, 201, 208);
 }
 
+@media (max-width: 900px) {
+    .container {
+        width: 90vw;
+    }
+    .tools-1, .tools-2 {
+        margin-bottom: 45px;
+    }
+}
+
