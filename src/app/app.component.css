@@ -84,7 +84,7 @@ button {
 }
 
 .tools button {
-    height: 3vh;
+    height: 4vh;
 }
 .tools-1 button:hover {
     color: rgb(181, 146, 181);
@@ -93,6 +93,7 @@ button {
     color: rgb(162, 201, 208);
 }
 
+
 @media (max-width: 900px) {
     .container {
         width: 90vw;
@@ -100,7 +101,7 @@ button {
     .tools-1, .tools-2 {
         margin-bottom: 45px;
     }
-    .tools {
+    .tools, .tools button {
         height: 5vh;
     }
 }
