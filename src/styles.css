@@ -1,6 +1,2 @@
-html, body { height: 100%; }
-body { margin: 0; background: url(img/background.jpg); overflow: hidden;} 
-
-@media (max-width: 900px) or (max-height: 700px) { 
-    body{overflow: scroll !important; overflow-x: hidden;}
- }
+html { height: 100%; }
+body { margin: 0; background: url(img/background.jpg); } 
