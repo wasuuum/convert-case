@@ -100,5 +100,8 @@ button {
     .tools-1, .tools-2 {
         margin-bottom: 45px;
     }
+    .tools {
+        height: 5vh;
+    }
 }
 
